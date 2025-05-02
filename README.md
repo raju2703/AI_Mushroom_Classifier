@@ -8,7 +8,7 @@
 
 ### Home Page:
 <p align="center">
- <img src="https://drive.google.com/file/d/1TaNzekeI5uD7raWtRmXuACXIHPObiijv/view?usp=sharing" width="800" height="auto" alt="Your Image Description">
+ <img src="https://drive.google.com/file/d/1TaNzekeI5uD7raWtRmXuACXIHPObiijv/view?usp=drive_link" width="800" height="auto" alt="Your Image Description">
 
 </p>
 
