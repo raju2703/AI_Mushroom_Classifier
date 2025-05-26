@@ -2,8 +2,13 @@
 from flask import Flask, render_template, url_for, request
 from keras.models import load_model
 from tensorflow.keras.preprocessing import image
+from tensorflow.keras.models import load_model
 import numpy as np
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Optional: suppress TensorFlow logs
+os.makedirs('uploads', exist_ok=True)     # Ensure uploads/ folder exists
+
+from tensorflow.keras.preprocessing import image
 
 # Load our saved model (Mushroom classification model)
 model_path = "Mushroom Classification Model.h5"
